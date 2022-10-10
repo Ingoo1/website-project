@@ -109,8 +109,8 @@ main {
   align-items: center;
   z-index: 1;
   opacity: 1;
-  /* clip-path: circle(50px at 100% -10%);
-  -webkit-clip-path: circle(50px at 100% -10%); */
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
 }
 .burger {
   cursor: pointer;
@@ -169,4 +169,8 @@ main {
   left: 50%;
   font-size: 0.5rem;
   transform: translate(-50%, -50%);
+}
+
+.active {
+  color: red;
 }
